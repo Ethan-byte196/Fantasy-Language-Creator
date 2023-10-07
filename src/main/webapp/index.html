@@ -11,11 +11,11 @@
       font-family: "Brush Script MT", cursive;
       color: floralwhite;
       text-align: center;
-      font-size: 3.5ex;
+      font-size: 3ex;
     }
   </style>
   
-    <h1 style="color:floralwhite;text-align: center;font-size: 6.5ex;">Fantasy Language Maker</h1
+    <h1 style="color:floralwhite;text-align: center;font-size: 6.5ex;">Fantasy Language Maker</h1>
 </head>
 
 <body>
@@ -23,16 +23,34 @@
     body {
       background-image: url(https://th.bing.com/th/id/R.623c4e5e2e3e9db8b49aaf3d9038ffe0?rik=c3V%2fGFlmjBL88g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-Dr7Wj8VMkxY%2fU9-VWpPFdXI%2fAAAAAAAAMEU%2fgjckdcUY8PU%2fs1600%2fFantasy-Wallpaper05.jpg&ehk=%2f9do%2be6NL8N%2bUett%2bI%2fu3Q8mqE%2b9jtfmhB620vopvag%3d&risl=&pid=ImgRaw&r=0);
       background-size: 150%;
-      font-size: 3.5ex;
+      font-size: 3ex;
     }
   </style>
 
-  <div id="textbox-container">
+	<div id="textbox-container">
     <!-- The text box will be added here -->
   </div>
 
+	<div id="displaybox-container">
+    <!-- The display box will be added here -->
+  </div>
+  
+  <button id="myButton">Language Translator</button>
+
   <!-- Include your script.js file just before the closing </body> tag -->
   <script src="script.js"></script>
+  
+  <script>
+	  
+    // Wait for the DOM to be fully loaded before executing JavaScript
+    document.addEventListener("DOMContentLoaded", function() {
+      // Add a text box with a custom placeholder and position
+      addTextBox("Type your English Here!!", "500px", "10px");
+      
+      addDisplayBox("500px","1600px");
+      
+    });
+  </script>
 </body>
 
 </html>
