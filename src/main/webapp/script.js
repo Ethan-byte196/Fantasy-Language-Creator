@@ -14,7 +14,9 @@ function addTextBox(placeholder = "Type here...", top = "0", left = "0") {
 
   textBox.style.width = "450px"; // Set the width to your desired value
   textBox.style.height = "400px"; // Set the height to your desired value
-
+  textBox.style.fontSize = "20px";
+  textBox.style.resize = "none";
+  
   // Apply CSS styles to set the position
   textBox.style.position = "absolute"; // Set position to absolute
   textBox.style.top = top; // Set the top coordinate
@@ -65,7 +67,13 @@ function addDisplayBox(top = "0", left = "0") {
   displayBox.style.position = "absolute"; // Set position to absolute
   displayBox.style.top = top; // Set the top coordinate
   displayBox.style.left = left; // Set the left coordinate
-
+  displayBox.style.fontSize = "25px";
+  
+  
+  
+  displayBox.style.overflowX = "hidden"; // Hide horizontal overflow
+  displayBox.style.overflowY = "auto"; // Enable vertical scrolling
+  
   // Set the text content of the display box
   displayBox.textContent = "This is the display box content"; // Change this text as needed
   displayBox.style.backgroundColor = "white"; // Set the background color to white
