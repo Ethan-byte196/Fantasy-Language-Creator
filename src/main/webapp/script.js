@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 // Create an array to store characters
 const characters = [];
 
