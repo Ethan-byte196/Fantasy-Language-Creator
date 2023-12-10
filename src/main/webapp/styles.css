@@ -1,0 +1,9 @@
+body {
+    font-family: 'Georgia', sans-serif;
+    color: #ffffff;
+    font-size: larger;
+    text-align: center;
+
+    background-image: url('fantasy-pic.jpg');
+    background-size: 120%;
+}

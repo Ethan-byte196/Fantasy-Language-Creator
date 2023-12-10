@@ -4,19 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="styles.css" rel="sylesheet" />
-  <title>Fantasy Language Maker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title id="title">Fantasy Language Maker</title>
 </head>
 
-<style>
-  body {
-    background-image: url('fantasy-pic.jpg');
-    background-size: 120%;
-  }
-</style>
-
-<body style="text-align: center;"> <!-- Center content horizontally -->
-  <span class="bordered-text">Fantasy Language Creator</span>
+<body>
+  <h4>Fantasy Language Creator</h4>
   <h5>
     <p>Instructions: "Quest Objective: Unveil the Secrets of the Ancient Tongue</p>
     <p>Step 1: Decrypt the Alphabet. Seek the mystical runes that correspond to the letters of the common English
@@ -29,7 +22,11 @@
 </body>
 
 <form>
-  <input type='text' id='English' name='English'>
+  <textarea id="English" name="English" placeholder="Type English Here!!" cols="50" rows="20"
+    maxlength="1000"> </textarea>
+  <input type="submit" value="Translate">
 </form>
+
+
 
 </html>
