@@ -1,9 +1,43 @@
 body {
     font-family: 'Georgia', sans-serif;
     color: #ffffff;
-    font-size: larger;
+    font-size: xx-large;
     text-align: center;
 
     background-image: url('fantasy-pic.jpg');
     background-size: 120%;
+}
+
+h4 {
+    display: box;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    padding: 3px;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+pre {
+    font-size: x-large;
+    padding: 2px;
+    display: box;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    width: 1350px;
+    text-align: 0 auto;
+    margin: 0 auto;
+}
+
+#English {
+    resize: none;
+    position: absolute;
+    left: 50px;
+
+}
+
+#Translate {
+    position: absolute;
+    left: 195px;
+    top: 650px
 }
