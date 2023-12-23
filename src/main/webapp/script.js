@@ -34,6 +34,8 @@ function translator(){
             continue;
         }
 
+        
+
 
     }
 
