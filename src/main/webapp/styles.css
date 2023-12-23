@@ -41,3 +41,8 @@ pre {
     left: 195px;
     top: 650px
 }
+
+#word_Scram {
+    display: flex;
+    align-items: center;
+}
